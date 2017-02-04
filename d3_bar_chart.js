@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
     $.getJSON("https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json", function(data) {
 
@@ -134,4 +134,4 @@ $(document).ready(function() {
 
     }); // end of .getJSON
 
-}); // end of $(document).ready()
+});
